@@ -1,0 +1,321 @@
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+ font-family: 'Times New Roman', serif;
+
+}
+
+.blue-heading{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.grey-background {
+  background-color: #eeeeee;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.Top-Container{
+margin: 0px;
+position: relative;
+padding-top: 0px;
+
+}
+
+.btn {
+/*  -webkit-border-radius: 0;
+
+  -moz-border-radius: 0;
+  border-radius: 0px;
+
+  -webkit-box-shadow: 0px 1px 3px #474347;
+  -moz-box-shadow: 0px 1px 3px #474347;
+  box-shadow: 0px 1px 3px #474347;
+  */
+  text-shadow: 0px 0px 0px #ffffff;
+
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 19px;
+  background: #00adb5;
+  padding: 0px;
+  text-decoration: none;
+  width: 100%;
+  padding-top: 0px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+
+}
+
+#btn-row {
+  background: #00adb5;
+  padding: 0px;
+  text-decoration: none;
+  width: 100%;
+  padding-top: 0px;
+  position: relative;
+  width: 100%;
+  height: 79px;
+  border: 0px;
+}
+.btn:hover {
+  background: #222831;
+}
+
+.down-arow{
+  width: 5%;
+  display: inline-block;
+  left: 266px;
+  bottom: 0%;
+  background-color: grey;
+  position: relative;
+  margin-right: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.heading-text{
+  margin: 0px;
+  position: relative;
+  padding-top: 0px;
+  bottom:  950px;
+
+}
+.Nav-Container {
+
+  position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   padding: 0px;
+   background-color:none;
+   border: 0px;
+   margin: 0% 0% 0% 85%;
+   padding-top: 10px;
+   bottom:  0px;
+width: 15%;
+
+
+
+ }
+.collapse-navbar{
+  display: block;
+  right: 5%;
+  top: 1055px;
+  background-color: grey;
+  position: absolute;
+  width: 15%;
+}
+.hr-70{
+  width: 70%
+}
+.box {
+  float: left;
+  text-align: left;
+
+  padding: 50px;
+}
+#left-box {
+  width: 30.33%;
+  padding-right: 0px;
+  margin-left: 15%;
+}
+
+#center-box {
+  width: 17.30%;
+}
+
+#right-box {
+  width: 33.33%;
+  padding-right: 0px;
+}
+.Mike-img {
+  width: 100%;
+  height: 100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  position: absolute;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+p{
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*    Interest In I.T Container   */
+
+#Interest-In-IT-Container{
+  background-color: #f5f4f4;
+  padding-bottom: 10px;
+  margin-top: 80%;
+
+}
+
+#Ideal-Job-Container{
+margin-left: 5%;
+margin-right: 5%;
+text-align: left;
+}
+
+#Profile-Container {
+  padding-bottom: 20%;
+
+}
+#Bottom-Container {
+
+}
+h1 {
+  margin-top: 0px;
+ color: #222831;
+   font-size: 2.5rem;
+   font-weight: bold;
+
+
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #222831;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+
+
+
+
+.skill-row{
+  width: 50%;
+margin: auto auto auto auto;
+text-align: left;
+line-height: 2;
+}
+
+.computer-text {
+
+  clear: both;
+}
+
+/*   VIDEO    */
+
+/*video as background; container element makes it responsive */
+.video-bg {
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+  background: transparent url('960x360.png') repeat;
+  background-size: cover;
+}
+
+video {
+  display: block;
+}
+/* disable video (e.g. in a media query) by setting .video-container to display: none; as appropriate */
+.video-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  right: 0;
+  margin: 0px;
+  margin-bottom: 10%;
+  padding-bottom: 399px;
+
+}
+
+.ideal-job-img-page{
+  background: #ebebeb;
+}
+.ideal-job-image-2{
+  position: relative;
+  bottom:  4px;
+}
+
+#profile-table {
+margin-left: 30%;
+}
+
+.infj-img{
+  float: left;
+  width: 20%;
+  bottom: 25%;
+display: block;
+}
+
+.intj-img{
+  float: right;
+  width: 20%;
+  bottom: 25%;
+display: block;
+}
+
+
+#red-font{
+  color: #E60028;
+  font-size: 1.1em;
+}
+
+
+.no-bullets{
+  list-style: none;
+}
+
+.ability-title{
+  padding-right: 15px;
+  text-align: left;
+
+}
+
+.glyphicon-star:before {
+    content: "\e006";
+    color: #00adb5;
+    padding: 1px;
+}
+
+.Skills-table{
+  text-decoration: none;
+margin-left: 40%;
+width: 25%;
+}
+
+.TAT-ul{
+  text-align: left;
+  width: 500px;
+}
+
+
+
+
+}
